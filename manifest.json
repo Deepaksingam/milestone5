@@ -1,0 +1,13 @@
+{
+    "name": "Spr Launcher",
+    "description" : "Quick app launch ",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons":{"128":"128.png"},
+    "browser_action": {
+      "default_popup": "index.html",
+      "default_icon": "20.png"
+    },
+
+    "permissions":["activeTab"]
+  }
